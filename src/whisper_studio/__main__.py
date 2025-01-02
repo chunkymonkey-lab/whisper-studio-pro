@@ -1,13 +1,9 @@
-"""
-WhisperStudio Pro - Main Entry Point
-"""
-
+#!/usr/bin/env python3
 import sys
 from PyQt6.QtWidgets import QApplication
-from .gui.main_window import WhisperStudioGUI
+from whisper_studio.gui.main_window import WhisperStudioGUI
 
 def main():
-    """Application entry point"""
     app = QApplication(sys.argv)
     window = WhisperStudioGUI()
     window.show()
