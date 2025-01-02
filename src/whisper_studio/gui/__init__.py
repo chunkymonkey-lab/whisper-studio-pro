@@ -1,1 +1,1 @@
-from .main_window import WhisperStudioGUI
+from .main import WhisperStudioGUI
