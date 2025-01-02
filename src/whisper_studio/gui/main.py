@@ -1,9 +1,12 @@
 import sys
 from PyQt6.QtWidgets import QApplication
-from whisper_studio.core.application import WhisperStudioGUI
+from .main_window import WhisperStudioGUI
 
 def main():
     app = QApplication(sys.argv)
     window = WhisperStudioGUI()
     window.show()
-    sys.exit(app.exec())
+    return app.exec()
+
+if __name__ == '__main__':
+    sys.exit(main())
