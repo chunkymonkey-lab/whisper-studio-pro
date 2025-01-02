@@ -1,0 +1,3 @@
+# Detailed Installation Guide
+
+This document provides comprehensive installation instructions for different operating systems and environments...

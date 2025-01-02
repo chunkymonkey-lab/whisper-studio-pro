@@ -1,0 +1,3 @@
+# Frequently Asked Questions
+
+This document addresses common questions and issues that users might encounter while using WhisperStudio Pro...
